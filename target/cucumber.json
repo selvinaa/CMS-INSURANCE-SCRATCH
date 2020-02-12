@@ -1,0 +1,52 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "testing",
+        "description": "",
+        "id": "test;testing",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 90976786,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I log in",
+            "match": {
+              "location": "_1_login.i_log_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 103097500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User logs in the account",
+            "match": {
+              "location": "_1_login.user_logs_in_the_account()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@demo1"
+          }
+        ]
+      }
+    ],
+    "name": "test",
+    "description": "",
+    "id": "test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/logout.feature",
+    "tags": []
+  }
+]

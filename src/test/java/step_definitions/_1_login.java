@@ -7,12 +7,14 @@ import utilities.Driver;
 public class _1_login extends Base {
 
 
-    @Given("user logs in the account")
-    public void user_logis_inthe_account(){
-        Driver.getInstance().get("https://orangehrm-demo-6x.orangehrmlive.com/auth/login");
-        loginpage.userName.sendKeys("admin");
-        loginpage.password.sendKeys("admin");
-        loginpage.login.click();
+    @Given("I log in")
+    public void i_log_in() {
+    Driver.getInstance().get("http://google.com");
     }
 
+    @Given("User logs in the account")
+    public void user_logs_in_the_account() {
+        Driver.getInstance().get("http://yahoo.com");
+
+    }
 }

@@ -3,9 +3,7 @@ package utilities;
 import org.apache.commons.lang3.exception.ExceptionUtils;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
-import utilities.DateUtils;
-import utilities.ScenarioContext;
-import cucumber.api.Scenario;
+
 
 
 public class CucumberLogUtils {
